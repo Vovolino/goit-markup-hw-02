@@ -9,6 +9,7 @@ body {
     --main-text-color: #434455;
     --second-text-color: #FFFFFF;
     --logo-color: #4d5ae5;
+    --button-color: #F4F4FD;
 }
 
 .link {
@@ -117,31 +118,24 @@ body {
 
 .filters-menu-item {}
 
-.filters-btn-all {
+.filters-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--logo-color);
-    background-color: #F4F4FD;
+    background-color: var(--button-color);
     cursor: pointer;
 }
 
-.filters-btn-all:hover {
-    background: #404BBF;
-    ;
+.filters-btn:hover,
+.filters-btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
 
-.filters-btn {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #4D5AE5;
-    background: #F4F4FD;
-    cursor: pointer;
-}
+
 
 /* benefits */
 .benefits {}
