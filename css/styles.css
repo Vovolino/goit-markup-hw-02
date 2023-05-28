@@ -162,7 +162,6 @@ body {
 
 .products-item {}
 
-/* projects */
 
 /* team */
 
@@ -179,7 +178,7 @@ body {
     text-transform: capitalize;
 }
 
-.list {}
+
 
 .team-item {
     background-color: var(--second-text-color);
