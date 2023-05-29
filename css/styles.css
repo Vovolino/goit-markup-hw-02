@@ -1,16 +1,19 @@
-body {
-    font-family: Roboto, sans-serif;
-    color: var(--main-text-color);
-    background-color: #FFFFFF;
-}
-
 :root {
     --title-color: #2E2F42;
     --main-text-color: #434455;
     --second-text-color: #FFFFFF;
     --logo-color: #4d5ae5;
     --button-color: #F4F4FD;
+    --hover-color: #404BBF;
 }
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--main-text-color);
+    background-color: var(--second-text-color);
+}
+
+
 
 .link {
     text-decoration: none;
@@ -42,7 +45,7 @@ body {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
+    color: var(--logo-color);
     text-transform: uppercase;
 }
 
@@ -60,7 +63,7 @@ body {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 
 .address {
@@ -78,7 +81,7 @@ body {
 
 .address-list-link:hover,
 .address-list-link:focus {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 
 /* hero */
@@ -102,13 +105,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--second-text-color);
-    background: #4D5AE5;
+    background: var(--logo-color);
     cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background: #404BBF;
+    background: var(--hover-color);
 }
 
 /* filters */
@@ -131,8 +134,8 @@ body {
 
 .filters-btn:hover,
 .filters-btn:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--hover-color);
+    color: var(--second-text-color);
 }
 
 
@@ -166,7 +169,7 @@ body {
 /* team */
 
 .team {
-    background: #F4F4FD;
+    background: var(--button-color);
 }
 
 .team-title {
@@ -199,7 +202,7 @@ body {
 }
 
 .footer-logo span {
-    color: #F4F4FD;
+    color: var(--button-color);
     ;
 }
 
@@ -207,5 +210,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--button-color);
 }
